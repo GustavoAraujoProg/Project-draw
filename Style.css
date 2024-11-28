@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Edu AU VIC WA NT Arrows", cursive;
+    
+}
+
+body {
+    background-color:lightslategray;
+    text-align: center;
+    margin: 0 auto 40px;
+    padding: 0 24px 23px;
+    
+}
+
+img {
+    width: 583px;
+    height: 374px;
+    margin: 10% auto;
+    display: block;
+    margin-bottom: 137px;
+}
+
+
+h1 {
+    text-align: center;
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: normal;
+    color:antiquewhite;
+    height: 20px;
+    display: inline-block;
+}
+
+input{
+    height: 74px;
+    width: 342px;
+    padding-left: 20px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    border-radius: 14px;
+    color: #FFF;
+    opacity: 0.7;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    background: rgba(255, 255, 255, 0.25);
+    margin-right: 67px;
+    margin-top: 80px;
+    text-align: center;
+    margin-left: 100px;
+}
+
+
+button{
+    
+    width: 342px;
+    height: 72px;
+    border-radius: 10px;
+    background: #AEC346;
+    box-shadow: 0px 18px 40px 0px rgba(174, 195, 70, 0.35);
+    color: #FFF;
+    margin-top:80px ;
+    font-size: 36px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+}
