@@ -8,18 +8,29 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Oswald:wght@200..700&family=Red+Rose:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./Style.css">
-    <script src="./Script.js"></script>
-</head>
+    </head>
 
 <body>
     <img src="./assets/Logo.png">
     
-    <h1>Sortear um numero</h1>
-    <section>
-        <input placeholder="de  0" class="input-max" type="number">
-        <input placeholder="a  100" class="input-min" type="number">
-    </section>
+    <h1>Sortear Números</h1> <label for="quantitySelect">Selecione quantos números deseja sortear:</label> <header>
+        <select id="quantitySelect">
+            </select>
+    </header>
 
-    <button onclick="generateNumber()">Sortear</button>
-</body>
+    <div>
+        <section>
+            <input placeholder="de 0 min" class="input-min" type="number" value="0"> <input placeholder="a 100 max" class="input-max" type="number" value="100"> </section>
+    </div>
+
+    <div class="botao">
+        <button onclick="generateNumbers()">Sortear</button> </div>
+
+    <div class="result-area"
+
+        <h1 >Números sorteados:</h1>
+
+        <div id="drawnNumbers"></div> </div>
+
+    <script src="./Script.js"></script> </body>
 </html>
